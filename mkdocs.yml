@@ -1,0 +1,19 @@
+site_name: Vuer Envs Astribot
+site_description: Autonomous teleoperation bridge for Astribot robot
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+
+nav:
+  - Home: index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
